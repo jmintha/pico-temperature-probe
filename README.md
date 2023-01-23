@@ -11,6 +11,7 @@ A small Raspberry Pico W script to measure the temperature and send it to a web 
 
 ## Instructions:
 - The script temperature.py needs to be uploaded to your Pico and named main.py so it will automatically run.
+- The script needs the onewire and ds18x20 libraries which are included in the Pico micropython firmware.
 - Adjust the SSID and wifi password in the script to match your network
 - change the urequests.get line to point to your own web server
 - connect the red wire to the Pico 3.3V (Pin 36)
