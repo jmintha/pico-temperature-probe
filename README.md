@@ -25,6 +25,7 @@ A small Raspberry Pico W script to measure the temperature and send it to a web 
 - The script tries to recover from errors and reset itself completely if it loses the network.
 - By default it logs to a file temperature.log on the flash memory of the Pico, this can be disabled , but is good for initial debugging.
 - web calls look like:  http://10.1.1.80/sensors/temperature/2903514757998460000/15.34  with "2903514757998460000" the serial number of the probe and 15.34 the temperature in celcius.
+- You can wire more than one probe together into the same pin and the script will report all the different temperatures.
 
 **Feel free to contact me with questions, comments or improvement at jim@mintha.com**
 
