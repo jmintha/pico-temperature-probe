@@ -1,7 +1,7 @@
 # Pico Temperature Probe
 
 ## Overview 
-A small Raspberry Pico W script to measure the temperature and send it to a web server for logging.  For under $10 you can have a temperature monitor that sends the temperature reading to a server periodically.
+A small Raspberry Pico W script to measure the temperature and send it to a web server for logging.  For under $10 you can have a temperature monitor that sends the temperature reading to a server periodically.  I've tried to make it robust enough to carry on even when there are errors.
 
 ## Needed:
 - Raspberry Pi Pico W
