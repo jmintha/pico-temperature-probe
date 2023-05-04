@@ -86,7 +86,7 @@ def read_temperature():
             # send it to the server
             response = None
             try:
-                response = urequests.get("http://10.1.1.80/sensors/temperature/%s/%3.2f/" % (location, temperature))
+                response = urequests.get("http://10.1.1.80/sensors/temperature/%s/%3.2f/" % (location, temperature), timeout=1.0)
                 response.close()
             except Exception as err:
                 if getattr(response, 'close', None):
